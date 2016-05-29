@@ -9,7 +9,8 @@ module.exports = {
       filename: "./dist/bundle.js"
   } ,
   
-  devtool: 'source-map',
+  //delete this entry if you do not want source maps for debugging 
+  //devtool: 'source-map',
   
   resolve: {
     extensions: ['', '.js', '.ts']

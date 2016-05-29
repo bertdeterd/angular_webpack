@@ -4,7 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -d",
+    "build:prd": "webpack -p --config ./webpack.prd.config.js",
     "start": "webpack-dev-server --inline"
   },
   "repository": {
