@@ -4,7 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server --inline"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,26 @@
   "bugs": {
     "url": "https://github.com/bertdeterd/angular_webpack/issues"
   },
-  "homepage": "https://github.com/bertdeterd/angular_webpack#readme"
+  "homepage": "https://github.com/bertdeterd/angular_webpack#readme",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/http": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/router": "^2.0.0-rc.1",
+    "@angular/upgrade": "^2.0.0-rc.1",
+    "angular2-universal-polyfills": "^0.4.1",
+    "bootstrap": "^3.3.6",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  }
 }
