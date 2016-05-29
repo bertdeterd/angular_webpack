@@ -40156,7 +40156,7 @@
 	    AppComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-app',
-	            template: '<h1>My Firsts Angulsssar 2 App</h1>'
+	            template: '<h1>My Firsts Angular 2 App</h1>'
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], AppComponent);
