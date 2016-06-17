@@ -11,6 +11,8 @@ module.exports = {
       filename: "bundle.js" //./dist/bundle.js"
   } ,
   
+  
+  
     
   //
   /*
@@ -20,6 +22,8 @@ module.exports = {
   
   devtool: 'source-map',
   
+  //resolve.modulesDirectories
+  //Default: ["web_modules", "node_modules"] webpack will look in “./mydir”, “../mydir”, “../../mydir”, etc
   resolve: {
     extensions: ['', '.js', '.ts']
   },
