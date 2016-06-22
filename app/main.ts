@@ -1,4 +1,5 @@
-/// <reference path="../node_modules/typescript/lib/lib.es6.d.ts" />
 import { bootstrap }    from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app.component'; 
+import { AppComponent } from './app.component';
+import { APP_ROUTER_PROVIDERS } from './app.routes';
+
 bootstrap(AppComponent);

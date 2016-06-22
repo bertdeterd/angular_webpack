@@ -10,10 +10,7 @@ module.exports = {
       path: path.resolve('dist/'),//__dirname,
       filename: "bundle.js" //./dist/bundle.js"
   } ,
-  
-  
-  
-    
+      
   //
   /*
   target: 'node', // in order to ignore built-in modules like path, fs, etc. 
@@ -40,7 +37,7 @@ module.exports = {
   
    plugins: [
      
-     //why do we need this? we can just do a webpack -p 
+     //why do we need this plugin? we can just do a webpack -p 
      //new webpack.optimize.UglifyJsPlugin(),
      
      new HtmlWebpackPlugin({
